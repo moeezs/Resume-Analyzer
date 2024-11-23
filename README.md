@@ -54,15 +54,6 @@ Contributions are welcome! Feel free to:
 5. Push to the branch (`git push origin feature/improvement`)
 6. Create a Pull Request
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Contact
 
 - GitHub: [@moeezs](https://github.com/moeezs)
-
-## Acknowledgments
-
-- Thanks to Mozilla for [PDF.js](https://mozilla.github.io/pdf.js/)
-- All contributors and users of this tool
