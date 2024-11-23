@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Resume Analyzer</h1>
+    <div class="main-input">
+        <input type="file" id="resume" accept="application/pdf">
+        <input type="text" id="job-desc" placeholder="Enter job description">
+        <button id="analyze-btn">Analyze</button>
+    </div>
+
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>Report</h3>
+            <div class="score-container">
+                <div class="circle-bar" id="score-circle">
+                    <div id="score-text">0%</div>
+                </div>
+            </div>
+            <div class="keywords-section">
+                <h4>Matched Keywords</h4>
+                <div id="matched-keywords-list"></div>
+            </div>
+            <div class="keywords-section">
+                <h4>Missing Keywords</h4>
+                <div id="missing-keywords-list"></div>
+            </div>
+            <button class="close-popup">Close</button>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
